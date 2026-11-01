@@ -29,7 +29,7 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
         );
       }
     );
- 
+
     super.initState();
   }
 
@@ -39,6 +39,7 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
       backgroundColor: const Color.fromARGB(255, 5, 1, 80),
       body: Stack(
         children: [
+          
           // ชั้นที่ 1 แสดง Logo ชื่อแอป โปรเกรส ....
           Center(
             child: Column(

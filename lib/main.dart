@@ -21,7 +21,7 @@ class _FlutterRunTrackerAppState extends State<FlutterRunTrackerApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home:SplashScreenUi(),
-      theme: ThemeData(
+      theme: ThemeData(//ใช้ kanit
         textTheme: TextTheme.of(context).apply(
           fontFamily: GoogleFonts.kanit().fontFamily,
           fontFamilyFallback: GoogleFonts.kanit().fontFamilyFallback,

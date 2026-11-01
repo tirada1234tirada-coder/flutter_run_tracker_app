@@ -110,6 +110,8 @@ class _AddRunUiState extends State<AddRunUi> {
                   ),
                 ),
                 SizedBox(height: 40.0,),
+
+                //ทำปุ่มกดบันทึกและลบข้อมูล
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(

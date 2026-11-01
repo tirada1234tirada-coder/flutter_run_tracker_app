@@ -11,6 +11,7 @@ class _UpdateDeleteRunUiState extends State<UpdateDeleteRunUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       // ส่วนของ appBar
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 5, 1, 80),
@@ -31,6 +32,7 @@ class _UpdateDeleteRunUiState extends State<UpdateDeleteRunUi> {
           ),
         ),
       ),
+
       // ส่วนของ body
       body: SingleChildScrollView(
         child: Padding(
@@ -113,6 +115,8 @@ class _UpdateDeleteRunUiState extends State<UpdateDeleteRunUi> {
                 SizedBox(
                   height: 40.0,
                 ),
+
+                //ทำปุ่มกดบันทึกและลบข้อมูล
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
